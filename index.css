@@ -1,0 +1,175 @@
+body{
+    height: 100vh;
+    width: 95vw;
+    background-color: blue;
+    margin: 0;
+}
+
+.menu-header{
+    color: aliceblue;
+    justify-content: end;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 30px;
+    margin-left: 10em;
+    
+    
+}
+
+.menu-header li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-header li{
+margin-left: 40px;
+}
+
+.menu-header li a:hover{
+    color: black;
+    transition: 1.0s;
+}
+
+#sessao{
+    padding: 30vh;
+    background: linear-gradient(180deg, #b4acd7 8.33%, #0d01b4);
+    flex-wrap: wrap;
+}
+
+#sessao h1{
+    font-size: 2.5em;
+    color: rgb(227, 218, 119);
+}
+
+#sessao p{
+    font-size: 2.3em;
+    margin: 20px 0;
+    color: #0d01b4;
+}
+
+#sessao button{
+    padding: 20px;
+    border-radius: 50px;
+    width: 20em;
+    color: #0d01b4;
+    border-color: rgb(102,209,228);
+    margin: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+#sessao button a{
+    text-decoration: none;
+    color: rgb(94, 92, 196); 
+}
+
+#sessao button:hover{
+background-color: blue;
+color: #b4acd7;
+border-color: rgb(238,241,241);
+transition: 0.7s;
+}
+
+#app{
+    padding: 15rem;
+    background-color: rgb(6, 30, 246);
+    display: flex;
+    justify-content: space-around;
+}
+
+#app button {
+    padding: 20px;
+    border-radius: 50px;
+    width: 20em;
+    color: rgb(4, 35, 239);
+    margin: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #0d01b4;
+    
+}
+
+#app button a{
+    color: #e2e2ed;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#app div p{
+    font-size: 2.8em;
+}
+
+#app div button:hover{
+    background-color: rgb(65, 96, 196);
+    color: #6661ad;
+    border-color: black;
+    transition: 0.5s;
+}
+
+#app div img{
+    width: 25em;
+    margin-left: 70px;
+    margin-top: 70px;
+    
+}
+
+#container{
+    padding: 30vh;
+    background-color: #1707f1;
+    flex-wrap: wrap;
+}
+
+#container h2{
+font-size: 40px;
+margin-top: -20px;
+color: #bb8c8c;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+#container p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #edecf6;
+    text-align: justify;
+}
+
+#container .text1{
+    text-align: center;
+}
+
+#container button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 10vw;
+    color: #ececf3;
+    border-color: rgb(50, 6, 246);
+    margin: 60px;
+    font-size: 15px;
+    background-color: #0d01b4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container button:hover{
+background-color: #e7e1e9;
+color: #010112;
+border-color: #6661ad;
+transition: 0.7s;
+cursor: pointer;
+}
+
+.line{
+    margin: 40 auto;
+    width: 100%;
+}
+
+#container img{
+    margin-left: 7vw;
+    margin-top: 30px;
+    width: 50vw;
+}
