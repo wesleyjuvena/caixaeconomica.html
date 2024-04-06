@@ -1,9 +1,14 @@
-
+*{
+    margin: 0;
+    margin: auto;
+}
 body{
     height: 100vh;
     width: 95vw;
     background-color: rgb(5, 5, 237);
     margin: auto;
+    text-align: center;
+    
 
     
      
@@ -17,6 +22,7 @@ body{
     list-style-type: none;
     padding: 30px;
     margin-left: 10em;
+    
     
     
 }
@@ -41,6 +47,7 @@ margin-left: 40px;
     padding: 30vh;
     background: linear-gradient(180deg, #b4acd7 8.33%, #0d01b4);
     flex-wrap: wrap;
+    
 }
 
 #sessao h1{
